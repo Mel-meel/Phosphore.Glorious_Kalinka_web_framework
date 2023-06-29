@@ -1,0 +1,36 @@
+
+Architecture d'un projet Phosphore :
+
+-- Projet
+---- Actions : dossier des actions de formulaires Ajax ou non
+------ AJAX : actions AJAX
+---- Base : dossier des composants
+------ Models : Modèles de la base de donnée
+---- C : sources créées par l'utilisateur
+---- DEP : dossier de déploiement
+---- Phosphore : dossier des composants de Phosphore Framework
+---- Routes : dossier des routes
+---- Templates : templates HTML
+---- configs : dossier de configurations
+------ Phosphore.cfg : configuration de Phospore propre à ce projet
+------ general.tcl : configuration du projet
+---- scripts : sources JS
+------ Actions : sources JS qui renvoient vers les actions
+---- styles : sources CSS
+------ Sergei.css : Bibliothèque CSS de Phosphore Framework
+---- index.tcl : renvoie vers Phosphore/App/Routes/Index.tcl
+
+
+Configurations
+
+Fichier de configuration de l'application :
+
+Le serveur HTTP utilisé
+Nom de l'application
+SGBD
+Nom de la base
+? utilisateur de la base ?
+? mot de passe ?
+
+
+
